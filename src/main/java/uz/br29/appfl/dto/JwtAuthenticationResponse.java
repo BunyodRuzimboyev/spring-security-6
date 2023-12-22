@@ -1,4 +1,4 @@
-package uz.br29.appfl.config.dto;
+package uz.br29.appfl.dto;
 
 
 import lombok.AllArgsConstructor;

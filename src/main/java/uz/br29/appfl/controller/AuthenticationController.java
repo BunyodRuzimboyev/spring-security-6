@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import uz.br29.appfl.config.dto.RefreshTokenRequest;
-import uz.br29.appfl.config.dto.SignInRequest;
-import uz.br29.appfl.config.dto.SignupRequest;
+import uz.br29.appfl.dto.RefreshTokenRequest;
+import uz.br29.appfl.dto.SignInRequest;
+import uz.br29.appfl.dto.SignupRequest;
 import uz.br29.appfl.service.AuthenticationService;
 
 @RestController
