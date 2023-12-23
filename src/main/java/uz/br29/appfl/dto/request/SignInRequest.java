@@ -1,4 +1,4 @@
-package uz.br29.appfl.dto;
+package uz.br29.appfl.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

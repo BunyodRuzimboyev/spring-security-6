@@ -1,5 +1,6 @@
 package uz.br29.appfl.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -17,7 +18,7 @@ public class CarController {
 
     @PostMapping
     @PreAuthorize(value = "hasAnyRole('ROLE_ADMIN')")
-    public ResponseEntity addCar(@RequestBody CarAddReq req){
+    public ResponseEntity addCar(@RequestBody @Valid CarAddReq req){
         return carService.addCar(req);
     }
 
@@ -44,6 +45,8 @@ public class CarController {
     public ResponseEntity getCarList(){
         return carService.getCarList();
     }
+
+
 
 
 }

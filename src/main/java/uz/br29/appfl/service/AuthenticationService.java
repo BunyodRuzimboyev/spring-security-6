@@ -1,9 +1,9 @@
 package uz.br29.appfl.service;
 
 import uz.br29.appfl.dto.JwtAuthenticationResponse;
-import uz.br29.appfl.dto.RefreshTokenRequest;
-import uz.br29.appfl.dto.SignInRequest;
-import uz.br29.appfl.dto.SignupRequest;
+import uz.br29.appfl.dto.request.RefreshTokenRequest;
+import uz.br29.appfl.dto.request.SignInRequest;
+import uz.br29.appfl.dto.request.SignupRequest;
 import uz.br29.appfl.entity.User;
 
 public interface AuthenticationService {

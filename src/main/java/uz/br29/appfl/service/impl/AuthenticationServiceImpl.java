@@ -6,9 +6,9 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import uz.br29.appfl.dto.JwtAuthenticationResponse;
-import uz.br29.appfl.dto.RefreshTokenRequest;
-import uz.br29.appfl.dto.SignInRequest;
-import uz.br29.appfl.dto.SignupRequest;
+import uz.br29.appfl.dto.request.RefreshTokenRequest;
+import uz.br29.appfl.dto.request.SignInRequest;
+import uz.br29.appfl.dto.request.SignupRequest;
 import uz.br29.appfl.entity.Role;
 import uz.br29.appfl.entity.User;
 import uz.br29.appfl.repository.UserRepository;
